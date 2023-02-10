@@ -82,7 +82,7 @@ double extractImaginary(string str){ //Extract double function, takes in a strin
 void displayAll(double realNumber1, double imaginaryNumber1, double realNumber2, double imaginaryNumber2){ //Displayall function, takes in the real numbers and imaginary numbers and prints it out
     Complex a(realNumber1, imaginaryNumber1);
     Complex b(realNumber2, imaginaryNumber2);
-    cout << endl << "*********************************************"<< endl << "Results of Calculations " << endl << "*********************************************"<< endl;
+    cout << endl << "*********************************************"<< endl << "            Results of Calculations " << endl << "*********************************************"<< endl;
     cout << a << " + " << b << " = (" << (a+b).getReal()<< " , " << (a+b).getImaginary() << ")" << endl;
     cout << a << " - " << b <<" = (" << (a-b).getReal()<< " , " << (a-b).getImaginary() << ")" << endl;
     cout << a << " * " << b << " = (" << (a*b).getReal()<< " , " << (a*b).getImaginary() << ")" << endl;
