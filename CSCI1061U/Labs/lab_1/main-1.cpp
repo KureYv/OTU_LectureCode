@@ -15,6 +15,7 @@ bool isFound(vector<string> c, string word){ //isFound function, checks if the w
   return false;
 }
 
+
 int returnCount(vector <string> v, string word){//returnCount function, takes in a vector and a string, returns how many times it was found
   int count = 0;
   for(string i:v){
